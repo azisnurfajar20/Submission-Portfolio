@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Css Untuk Menu Navbar */
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  box-shadow: 3px 3px 2px 1px #666666;
+  background-color: #fefbf6;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+/* Akhir CSs untuk Menu Navbar */
+
+/* Css digunakan untuk seluruh */
+.jumbotron {
+  padding: 60px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+main {
+  padding: 5em;
+}
+
+aside {
+  background-color: #fefbf6;
+  display: flex;
+  width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.box {
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 1em;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  padding: 20px;
+  margin: 5px;
+}
+
+*/ .box {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 20px;
+}
